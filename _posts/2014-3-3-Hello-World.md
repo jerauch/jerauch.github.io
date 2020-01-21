@@ -1,10 +1,18 @@
 ---
 layout: post
-title: You're up and running!
+title: Migrer une base MySQL vers une base Azure SQL Database
+published: true
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+Dans le cadre d'un projet nous avons dû migrer une base MySQL vers une base "SQL Database" hébergée chez Azure. Microsoft propose un outil de migration, voilà la procédure à suivre.
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+Avant de commencer :
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+- Il faut avoir un accès vers la base MySQL (nom du serveur, nom de la base, login et mot de passe)
+- Il faut créer le serveur Azure SQL ainsi qu'une base de données. Lors de la création de la base il faudra noter son nom, ainsi que le login et le mot de passe permettant d'accéder à la base. 
+- Il faut aussi autoriser votre adresse IP à accéder à la base Azure SQL Database en utilisant le bouton "Set server Firewall" :
+
+(![SQL1.png]({{site.baseurl}}/_posts/SQL1.png)
+
+
+
