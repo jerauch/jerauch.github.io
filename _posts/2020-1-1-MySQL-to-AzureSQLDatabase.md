@@ -12,4 +12,4 @@ Avant de commencer :
 - Il faut créer le serveur Azure SQL ainsi qu'une base de données. Lors de la création de la base il faudra noter son nom, ainsi que le login et le mot de passe permettant d'accéder à la base. 
 - Il faut aussi autoriser votre adresse IP à accéder à la base Azure SQL Database en utilisant le bouton "Set server Firewall" :
 
-![SQL1.png]({{site.baseurl}}/_posts/SQL1.png)
+![]({{site.baseurl}}/https://github.com/jerauch/jerauch.github.io/blob/master/_posts/SQL1.png?raw=true)
